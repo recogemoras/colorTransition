@@ -1,58 +1,48 @@
 <html>
 
 <head>
-	<title>Transitions</title>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script type="text/javascript">
-		$(document).ready(function() {
+    <title>Transitions</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
 
-			$(".colorSelector").click(function() {
-				var colors = ["#E0F7CF", "#F4F7CF", "#F7E6CF", "#F7D2CF", "#F7CFE0", "#F7CFF4", "#E6CFF7", "#D2CFF7"];
-				var i = $(this).data('value');
-				$("body").css("background-color", colors[i]);
-				$(".colorSelector").css("color", "#8C8C8C");
-			});
-/*
-			$(window).resize(function(){
-				$('#buttons').css({
-					position:'absolute',
-					left: ($(window).width() - $('#buttons').outerWidth())/2,
-					top: ($(window).height() - $('#buttons').outerHeight())/2
-				});
-			});
-			$(window).resize();
-*/
-		});
-	</script>
+            $(".colorSelector").click(function() {
+                var colors = ["#E0F7CF", "#F4F7CF", "#F7E6CF", "#F7D2CF", "#F7CFE0", "#F7CFF4", "#E6CFF7", "#D2CFF7"];
+                var i = $(this).data('value');
+                $("body").css("background-color", colors[i]);
+                $(".colorSelector").css("color", "#8C8C8C");
+            });
+        });
+    </script>
 
 
 </head>
 
 <body>
-	<header>
-		<img src="img/logo_left.png" class="logo left"/>
-		<img src="img/logo_right.png" class="logo right"/>
-	</header>
-	<div id="buttons">	
+    <header>
+        <img src="img/logo_left.png" class="logo left"/>
+        <img src="img/logo_right.png" class="logo right"/>
+    </header>
+    <div id="buttons">  
         <ul>
-        	<li>
-            	<ul>
+            <li>
+                <ul>
 
-            		<li><div class="colorSelector" data-value="0">green</div></li>
-            		<li><div class="colorSelector" data-value="1">yellow</div></li>
-            		<li><div class="colorSelector" data-value="2">orange</div></li>
-            		<li><div class="colorSelector" data-value="3">red</div></li>
-            	</ul>
+                    <li><div class="colorSelector" data-value="0">green</div></li>
+                    <li><div class="colorSelector" data-value="1">yellow</div></li>
+                    <li><div class="colorSelector" data-value="2">orange</div></li>
+                    <li><div class="colorSelector" data-value="3">red</div></li>
+                </ul>
             </li>
             <li>
-	            <ul>
-	                <li><div class="colorSelector" data-value="4">pink</div></li>
-	                <li><div class="colorSelector" data-value="5">fuchsia</div></li>
-	                <li><div class="colorSelector" data-value="6">lilac</div></li>
-	                <li><div class="colorSelector" data-value="7">purple</div></li>
-				</ul>
-			</li>	
+                <ul>
+                    <li><div class="colorSelector" data-value="4">pink</div></li>
+                    <li><div class="colorSelector" data-value="5">fuchsia</div></li>
+                    <li><div class="colorSelector" data-value="6">lilac</div></li>
+                    <li><div class="colorSelector" data-value="7">purple</div></li>
+                </ul>
+            </li>   
         </ul>
     </div>
 </body>

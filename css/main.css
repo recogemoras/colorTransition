@@ -1,6 +1,6 @@
 body {
-	background: #707070;
-	-webkit-transition: background-color 1000ms linear;
+    background: #707070;
+    -webkit-transition: background-color 1000ms linear;
      -moz-transition: background-color 1000ms linear;
      -o-transition: background-color 1000ms linear;
      -ms-transition: background-color 1000ms linear;
@@ -8,16 +8,16 @@ body {
 }
 
 .logo {
-	height: 100px;
+    height: 100px;
 }
 
 .left {
-	float: left;
-	
+    float: left;
+    
 }
 
 .right {
-	float: right;
+    float: right;
 }
 
 @font-face {
@@ -26,11 +26,11 @@ body {
 }
 
 #buttons {
-	width: 940px;
-	height: 100px;
-	margin: 0 auto;
-	padding: 0 10px 0 10px;
-	display: block;
+    width: 940px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    display: block;
 }
 
 #buttons ul li{
@@ -41,32 +41,24 @@ body {
 }
 
 #buttons ul li ul li{
-	display:inline-block;
-	margin: 2px;
-	padding: 0;
-	list-style-type: none;
-	width: 184px;
-	/*
-	background-color: rgba(87, 87, 87, 0.4);
-	border: #8F8F8F 2px solid;
-	border-top-right-radius: 15px 15px;
-	border-top-left-radius: 15px 15px;
-	border-bottom-right-radius: 15px 15px;
-	border-bottom-left-radius: 15px 15px;
-	*/
+    display:inline-block;
+    margin: 2px;
+    padding: 0;
+    list-style-type: none;
+    width: 184px;
 }
 
 .colorSelector{
-	padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     line-height: 1.5em;
     float: left;
     display: inline-block;
     color: #F2F2F2;
     text-decoration: none;
-	font-size: 30px;
-	font-family: 'kulminoituva', century gothic, URW gothic L, Helvetica, Sans-Serif;
-	font-weight: 400;
-	text-align: center;
+    font-size: 30px;
+    font-family: 'kulminoituva', century gothic, URW gothic L, Helvetica, Sans-Serif;
+    font-weight: 400;
+    text-align: center;
 }
 
 .colorSelector:hover {
